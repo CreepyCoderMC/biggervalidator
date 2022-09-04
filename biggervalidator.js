@@ -228,19 +228,20 @@
  /*     VERSION HISTORY
   *
   *     1.0.0       04 September 2022           Official first release
+  *     1.0.1       04 September 2022           Correcting spelling mistakes 
   */
 
  /* Validates if a source value is bigger than the target
   * @param  { String , Number } source        The source value to compare
   * @param  { String , Number } target        The target value to compare
-  * @param  { Boolean }         equel         Check if source value and target value equel ( optional , default = false )
-  * @return { Boolean }                       Validation passed or failed
+  * @param  { Boolean         } equal         Check if source value and target value equal ( optional , default = false )
+  * @return { Boolean         }               Validation passed or failed
   */
 
-export default function valueIsBigger( source , target , equel = false ) {
+export default function valueIsBigger( source , target , equal = false ) {
 
-    // Checks if source and target are equel if specified 
-    if( equel ) {
+    // Checks if source and target are equal if specified 
+    if( equal ) {
 
         if( source == target )  return true;
 
