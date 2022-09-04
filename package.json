@@ -1,0 +1,48 @@
+{
+
+  "type":         "module",
+  "name":         "@teamcoder/biggervalidator",
+  "version":      "1.0.0",
+  "description":  "This library is small but easy to use. The purpose of this library is to check if the source value is bigger than the target value, and optionally also if they are equal. The source and target can be a string or a number.",
+  "main":         "biggervalidator.js",
+  "keywords": [
+                  "value",
+                  "string",
+                  "number",
+                  "bigger",
+                  "equal",
+                  "validator",
+                  "node.js",
+                  "javascript"
+  ],
+  "author":       "CreepyCoderMC",
+  "license":      "CC BY-NC-ND 4.0",
+  "homepage":     "https://github.com/CreepyCoderMC",
+  "url":          "https://github.com/CreepyCoderMC/biggervalidator/issues",
+  "email":        "creepycodermc@gmail.com",
+
+  "funding": {
+    "type":       "PayPal Donation",
+    "url":        "https://www.paypal.com/donate/?hosted_button_id=NNPJXD2CLSXRA"
+  },
+
+  "repository": {
+    "type":       "git",
+    "url":        "https://github.com/CreepyCoderMC/biggervalidator"
+  },
+
+  "scripts": {
+    "test":       "node test.js"
+  },
+
+  "engines": {
+    "node":       ">=10",
+    "npm":        ">=6"
+  },
+
+  "os": [
+                  "windows",
+                  "linux"
+  ]
+
+}
