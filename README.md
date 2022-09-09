@@ -9,7 +9,7 @@ This method checks that the source value is equal to the value if specified.
 ## Code Sample
 This following code is to tested that all methods correctly functions as intended, is also provided in this module.
 ```
-import valueIsBigger from './node_modules/@teamcoder/biggervalidator/biggervalidator.js';
+const valueIsBigger = require('valueIsBigger')
 
 console.log( "Testing Condition  1 Passed = " + valueIsBigger(  15  , 14            ) );
 console.log( "Testing Condition  2 Passed = " + valueIsBigger(  'b' , 'a'           ) );
@@ -36,6 +36,7 @@ Testing Condition  8 Passed = true
 @param  { String , Number } source        The source value to compare
 @param  { String , Number } target        The target value to compare
 @param  { Boolean         } equal         Check if source value and target value equal ( optional , default = false )
+
 @return { Boolean         }               Validation passed or failed
 ```
 ## Version History
@@ -45,6 +46,7 @@ Testing Condition  8 Passed = true
 | 1.0.1    | 04 September 2022      | Correcting spelling mistakes                          |
 | 1.0.2    | 06 September 2022      | Correcting documentation                              |
 | 1.0.3    | 09 September 2022      | Fixed package.json so that npm can install on any os  |
+| 1.0.4    | 09 September 2022      | Fixed code to be proper npm packadge                  |
 ## How To Install
 Run the following command in a terminal or command prompt in the folder you want to install the module to.
 > npm i @teamcoder/biggervalidator
