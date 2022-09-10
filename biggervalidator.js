@@ -232,6 +232,7 @@
   *     1.0.2       06 September 2022           Correcting documentation
   *     1.0.3       09 September 2022           Fixed package.json so that npm can install on any os
   *     1.0.4       09 September 2022           Fixed code to be proper npm packadge
+  *     1.0.5       10 September 2022           Fixed code to be proper npm packadge
   */
 
  /* Validates if a source value is bigger than the target
@@ -242,7 +243,7 @@
   * @return { Boolean         }               Validation passed or failed
   */
 
-module.exports = function valueIsBigger( source , target , equal = false ) {
+ export function valueIsBigger ( source , target , equal = false ) {
 
     // Checks if source and target are equal if specified 
     if( equal ) {

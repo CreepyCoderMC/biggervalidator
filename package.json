@@ -2,10 +2,10 @@
 
   "type":         "module",
   "name":         "@teamcoder/biggervalidator",
-  "version":      "1.0.4",
+  "version":      "1.0.5",
   "description":  "This module is small but easy to use. The purpose of this module is to check if the source value is bigger than the target value, and optionally also if they are equal. The source and target can be a string or a number.",
   "main":         "biggervalidator.js",
-  
+
   "keywords": [
                   "value",
                   "string",
@@ -16,9 +16,9 @@
                   "node.js",
                   "javascript"
   ],
-  
+
   "author":       "CreepyCoderMC",
-  "license":      "CC BY-NC-ND 4.0",
+  "license":      "CC-BY-NC-ND-4.0",
   "homepage":     "https://github.com/CreepyCoderMC",
   "url":          "https://github.com/CreepyCoderMC/biggervalidator/issues",
   "email":        "creepycodermc@gmail.com",

@@ -1,4 +1,4 @@
-const valueIsBigger = require('valueIsBigger')
+import { valueIsBigger } from '@teamcoder/biggervalidator';
 
 console.log( "Testing Condition  1 Passed = " + valueIsBigger(  15  , 14            ) );
 console.log( "Testing Condition  2 Passed = " + valueIsBigger(  'b' , 'a'           ) );

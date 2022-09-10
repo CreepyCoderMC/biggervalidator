@@ -9,7 +9,7 @@ This method checks that the source value is equal to the value if specified.
 ## Code Sample
 This following code is to tested that all methods correctly functions as intended, is also provided in this module.
 ```
-const valueIsBigger = require('valueIsBigger')
+import { valueIsBigger } from '@teamcoder/biggervalidator';
 
 console.log( "Testing Condition  1 Passed = " + valueIsBigger(  15  , 14            ) );
 console.log( "Testing Condition  2 Passed = " + valueIsBigger(  'b' , 'a'           ) );
