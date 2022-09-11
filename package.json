@@ -1,8 +1,7 @@
 {
-
   "type":         "module",
   "name":         "@teamcoder/biggervalidator",
-  "version":      "1.0.10",
+  "version":      "1.0.11",
   "description":  "This module is small but easy to use. The purpose of this module is to check if the source value is bigger than the target value, and optionally also if they are equal. The source and target can be a string or a number.",
   "main":         "biggervalidator.js",
 
