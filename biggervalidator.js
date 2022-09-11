@@ -235,6 +235,7 @@
   *     1.0.5       10 September 2022           Fixed code to be proper npm package
   *     1.0.6       10 September 2022           Correcting documentation
   *     1.0.7       10 September 2022           Correcting documentation
+  *     1.0.8       11 September 2022           Removed Default from export function in biggervalidator.js file
   */
 
  /* Validates if a source value is bigger than the target
@@ -245,7 +246,7 @@
   * @return { Boolean         }               Validation passed or failed
   */
 
- export default function valueIsBigger ( source , target , equal = false ) {
+ export function valueIsBigger ( source , target , equal = false ) {
 
     // Checks if source and target are equal if specified 
     if( equal ) {
