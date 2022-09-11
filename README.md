@@ -37,9 +37,9 @@ Testing Condition  8 Passed = true
 @param  { String , Number } source        The source value to compare
 @param  { String , Number } target        The target value to compare
 @param  { Boolean         } equal         Check if source value and target value equal ( optional , default = false )
-'''
+```
 ### Parameters Returned
-'''
+```
 @return { Boolean         }               Validation passed or failed
 ```
 ## Notes Before You Start
@@ -48,12 +48,12 @@ Very important to remember to always include the following in your main project 
 "type": "module"
 ```
 Without this entry in the package file you will get the following error if you try to run your project
-'''
+```
 (node:15500) Warning: To load an ES module, set "type": "module" in the package.json or use the .mjs extension.
 (Use 'node --trace-warnings ...' to show where the warning was created)
 C:\Users\ ... \completevalidator\completevalidator.js:1
 import { valueIsBigger } from '@teamcoder/biggervalidator';
-'''
+```
 ## Version History
 | Version  | Date                   | Remark                                                                                                |
 |----------|------------------------|-------------------------------------------------------------------------------------------------------|
@@ -67,6 +67,7 @@ import { valueIsBigger } from '@teamcoder/biggervalidator';
 | 1.0.7    | 10 September 2022      | Correcting documentation                                                                              |
 | 1.0.8    | 11 September 2022      | Removed Default from export function in biggervalidator.js file                                       |
 | 1.0.9    | 11 September 2022      | Correcting documentation                                                                              |
+| 1.0.10   | 11 September 2022      | Correcting documentation                                                                              |
 ## How To Install
 Run the following command in a terminal or command prompt in the folder you want to install the module to.
 > npm i @teamcoder/biggervalidator

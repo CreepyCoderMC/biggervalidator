@@ -237,6 +237,7 @@
   *     1.0.7       10 September 2022           Correcting documentation
   *     1.0.8       11 September 2022           Removed Default from export function in biggervalidator.js file
   *     1.0.9       11 September 2022           Correcting documentation
+  *     1.0.10      11 September 2022           Correcting documentation
   */
 
  /* Validates if a source value is bigger than the target
